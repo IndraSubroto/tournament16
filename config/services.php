@@ -37,9 +37,11 @@ return [
     */
     'midtrans' => [
         // Midtrans server key
-        'serverKey'     => env('MIDTRANS_SERVERKEY'),
+        'serverKey'     => 'SB-Mid-client-DH8pRU7tFv2w-YmM',
+        // env('MIDTRANS_SERVERKEY'),
         // Midtrans client key
-        'clientKey'     => env('MIDTRANS_CLIENTKEY'),
+        'clientKey'     => 'SB-Mid-server-cMn2Ddq2EApmCjlB6-bsPxYC',
+        // env('MIDTRANS_CLIENTKEY'),
         // Isi false jika masih tahap development dan true jika sudah di production, default false (development)
         'isProduction'  => env('MIDTRANS_IS_PRODUCTION', false),
         'isSanitized'   => env('MIDTRANS_IS_SANITIZED', true),
